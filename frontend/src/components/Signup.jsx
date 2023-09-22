@@ -32,7 +32,7 @@ const Signup = () => {
       <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
         <a
           href="/"
-          class="flex items-center mb-6 text-8xl bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100"
+          class="mb-6 font-bold flex justify-center items-center text-7xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100"
         >
           TechTwist
         </a>
