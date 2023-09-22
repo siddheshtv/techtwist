@@ -113,7 +113,7 @@ const Quiz = () => {
           <div className="bl"></div>
         </div>
         <div className="flex">
-          <div className="mat">1</div>
+          <div className="mat">5</div>
           <input type="text" maxLength="1" className="qin" placeholder="X" />
           <input type="text" maxLength="1" className="qin" placeholder="X" />
           <input type="text" maxLength="1" className="qin" placeholder="X" />
@@ -136,7 +136,7 @@ const Quiz = () => {
           <div className="bl"></div>
         </div>
         <div className="flex">
-          <div className="mat">1</div>
+          <div className="mat">6</div>
           <input type="text" maxLength="1" className="qin" placeholder="X" />
           <input type="text" maxLength="1" className="qin" placeholder="X" />
           <input type="text" maxLength="1" className="qin" placeholder="X" />
@@ -159,7 +159,7 @@ const Quiz = () => {
           <div className="bl"></div>
         </div>
         <div className="flex">
-          <div className="mat">1</div>
+          <div className="mat">7</div>
           <input type="text" maxLength="1" className="qin" placeholder="X" />
           <input type="text" maxLength="1" className="qin" placeholder="X" />
           <input type="text" maxLength="1" className="qin" placeholder="X" />
