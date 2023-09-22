@@ -10,15 +10,17 @@ const Quiz = () => {
     <section className="bg-gray-50 dark:bg-gray-900  px-5">
       <div className="w-full">
         <nav className="flex items-center justify-between mx-12 mt-5 text-gray-900 dark:text-white">
-          <a
-            href="/"
-            className="py-2 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100"
-          >
+          <h1 className="py-2 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100">
             TechTwist
-          </a>
+          </h1>
           <div className="flex space-x-5">
-            <h1 className="py-2 text-xl">Username</h1>
-            <h1 className="py-2 text-xl">Score</h1>
+            <h1 className="py-2 text-xl">
+              Username:{" "}
+              <span className="font-bold text-2xl">theboringbuilder</span>
+            </h1>
+            <h1 className="py-2 text-xl">
+              Score: <span className="font-bold text-2xl">🔥</span>
+            </h1>
           </div>
         </nav>
       </div>
