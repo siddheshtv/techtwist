@@ -520,75 +520,77 @@ const Quiz = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col ">
+      <div className="flex flex-col bg-slate-800 rounded-lg shadow-lg p-6">
         <div className="max-w-2xl">
           <div className="overflow-y-auto max-h-[512px]">
             {" "}
             {/* max-h-80 sets a max height for the scrollable box */}
-            <h1 className="text-2xl font-bold text-white py-2">Down</h1>
+            <h1 className="text-2xl font-bold text-white py-4">Down</h1>
             <h1 className="text-base text-white py-1">
-              01. A popular web framework for Python
+              <strong>01.</strong> A popular web framework for Python
             </h1>
             <h1 className="text-base text-white py-1">
-              02. The smallest unit of digital information
+              <strong>02.</strong> The smallest unit of digital information
             </h1>
             <h1 className="text-base text-white py-1">
-              03. A versatile and high-level programming language known for its
-              simplicity and readability
+              <strong>03.</strong> A versatile and high-level programming
+              language known for its simplicity and readability
             </h1>
             <h1 className="text-base text-white py-1">
-              04. An open-source machine learning framework developed by Google
+              <strong>04.</strong> An open-source machine learning framework
+              developed by Google
             </h1>
             <h1 className="text-base text-white py-1">
-              05. Explanatory notes or comments added to a text
+              <strong>05.</strong> Explanatory notes or comments added to a text
             </h1>
             <h1 className="text-base text-white py-1">
-              06. A stylesheet language used for describing the presentation of
-              web pages
+              <strong>06.</strong> A stylesheet language used for describing the
+              presentation of web pages
             </h1>
             <h1 className="text-base text-white py-1">
-              07. A distributed version control system used for tracking changes
-              in code
+              <strong>07.</strong> A distributed version control system used for
+              tracking changes in code
             </h1>
             <h1 className="text-base text-white py-1">
-              08. A widely-used web application framework for Node.js, known for
-              its simplicity and robust features, often used to build web
-              applications and APIs
+              <strong>08.</strong> A widely-used web application framework for
+              Node.js, known for its simplicity and robust features, often used
+              to build web applications and APIs
             </h1>
-            <h1 className="text-2xl font-bold text-white">Across</h1>
+            <h1 className="text-2xl font-bold text-white py-4">Across</h1>
             <h1 className="text-base text-white py-1">
-              01. A popular web framework for Python
-            </h1>
-            <h1 className="text-base text-white py-1">
-              02. The smallest unit of digital information
+              <strong>01.</strong> A popular web framework for Python
             </h1>
             <h1 className="text-base text-white py-1">
-              03. A versatile and high-level programming language known for its
-              simplicity and readability
+              <strong>02.</strong> The smallest unit of digital information
             </h1>
             <h1 className="text-base text-white py-1">
-              04. An open-source machine learning framework developed by Google
+              <strong>03.</strong> A versatile and high-level programming
+              language known for its simplicity and readability
             </h1>
             <h1 className="text-base text-white py-1">
-              05. Explanatory notes or comments added to a text
+              <strong>04.</strong> An open-source machine learning framework
+              developed by Google
             </h1>
             <h1 className="text-base text-white py-1">
-              06. A stylesheet language used for describing the presentation of
-              web pages
+              <strong>05.</strong> Explanatory notes or comments added to a text
             </h1>
             <h1 className="text-base text-white py-1">
-              07. A distributed version control system used for tracking changes
-              in code
+              <strong>06.</strong> A stylesheet language used for describing the
+              presentation of web pages
             </h1>
             <h1 className="text-base text-white py-1">
-              08. A widely-used web application framework for Node.js, known for
-              its simplicity and robust features, often used to build web
-              applications and APIs
+              <strong>07.</strong> A distributed version control system used for
+              tracking changes in code
+            </h1>
+            <h1 className="text-base text-white py-1">
+              <strong>08.</strong> A widely-used web application framework for
+              Node.js, known for its simplicity and robust features, often used
+              to build web applications and APIs
             </h1>
           </div>
         </div>
 
-        <div className="mx-auto max-w-md">
+        <div className="mx-auto max-w-md py-4">
           <button
             type="submit"
             class="w-full text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
