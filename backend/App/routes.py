@@ -122,8 +122,50 @@ def getScore():
             #--------------------------------------------------------------------------------------
 
 
-            if str(ans.get('1403')).lower() == "j" and str(ans.get('1503')).lower() == "a" and str(ans.get('1603')).lower() == "v" and str(ans.get('1703')).lower() == "a" and str(ans.get('1803')).lower() == "s" and str(ans.get('1803')).lower() == "c" and str(ans.get('1803')).lower() == "i" and str(ans.get('1803')).lower() == "p" and str(ans.get('1803')).lower() == "t":
+            if str(ans.get('0201')).lower() == "j" and str(ans.get('0202')).lower() == "a" and str(ans.get('0203')).lower() == "v" and str(ans.get('0204')).lower() == "a" and str(ans.get('0205')).lower() == "s" and str(ans.get('0206')).lower() == "c" and str(ans.get('0207')).lower() == "r" and str(ans.get('0208')).lower() == "i" and str(ans.get('0209')).lower() == "p" and str(ans.get('0210')).lower() == "t":
                 total_marks = total_marks+10
+
+            if str(ans.get('0603')).lower() == "i" and str(ans.get('0604')).lower() == "t" and str(ans.get('0605')).lower() == "e" and str(ans.get('0606')).lower() == "r" and str(ans.get('0607')).lower() == "a" and str(ans.get('0608')).lower() == "t" and str(ans.get('0609')).lower() == "i" and str(ans.get('0610')).lower() == "o" and str(ans.get('0611')).lower() == "n":
+                total_marks = total_marks+10
+
+            if str(ans.get('0111')).lower() == "p" and str(ans.get('0112')).lower() == "i" and str(ans.get('0113')).lower() == "p":
+                total_marks = total_marks+10
+
+            if str(ans.get('0115')).lower() == "c" and str(ans.get('0116')).lower() == "h" and str(ans.get('0117')).lower() == "r" and str(ans.get('0118')).lower() == "o" and str(ans.get('0119')).lower() == "m" and str(ans.get('0120')).lower() == "e":
+                total_marks = total_marks+10
+
+            if str(ans.get('0315')).lower() == "d" and str(ans.get('0316')).lower() == "o" and str(ans.get('0317')).lower() == "c" and str(ans.get('0318')).lower() == "k" and str(ans.get('0319')).lower() == "e" and str(ans.get('0320')).lower() == "r":
+                total_marks = total_marks+10
+
+            if str(ans.get('0518')).lower() == "n" and str(ans.get('0519')).lower() == "p" and str(ans.get('0520')).lower() == "m":
+                total_marks = total_marks+10
+
+            if str(ans.get('0912')).lower() == "d" and str(ans.get('0913')).lower() == "e" and str(ans.get('0914')).lower() == "b" and str(ans.get('0915')).lower() == "i" and str(ans.get('0916')).lower() == "a" and str(ans.get('0917')).lower() == "n":
+                total_marks = total_marks+10
+
+            if str(ans.get('1109')).lower() == "a" and str(ans.get('1110')).lower() == "w" and str(ans.get('1111')).lower() == "s":
+                total_marks = total_marks+10
+
+            if str(ans.get('1401')).lower() == "m" and str(ans.get('1402')).lower() == "a" and str(ans.get('1403')).lower() == "t" and str(ans.get('1404')).lower() == "p" and str(ans.get('1405')).lower() == "l" and str(ans.get('1406')).lower() == "o" and str(ans.get('1407')).lower() == "t" and str(ans.get('1408')).lower() == "l" and str(ans.get('1409')).lower() == "i" and str(ans.get('1410')).lower() == "b":
+                total_marks = total_marks+10
+
+            if str(ans.get('1609')).lower() == "e" and str(ans.get('1610')).lower() == "m" and str(ans.get('1611')).lower() == "o" and str(ans.get('1612')).lower() == "j" and str(ans.get('1613')).lower() == "i":
+                total_marks = total_marks+10
+
+            if str(ans.get('1805')).lower() == "s" and str(ans.get('1806')).lower() == "t" and str(ans.get('1807')).lower() == "a" and str(ans.get('1808')).lower() == "c" and str(ans.get('1809')).lower() == "k":
+                total_marks = total_marks+10
+
+            # if str(ans.get('0201')).lower() == "j" and str(ans.get('0202')).lower() == "a" and str(ans.get('0203')).lower() == "v" and str(ans.get('0204')).lower() == "a" and str(ans.get('0205')).lower() == "s" and str(ans.get('0206')).lower() == "c" and str(ans.get('0207')).lower() == "r" and str(ans.get('0208')).lower() == "i" and str(ans.get('0209')).lower() == "p" and str(ans.get('0210')).lower() == "t":
+            #     total_marks = total_marks+10
+
+            # if str(ans.get('0201')).lower() == "j" and str(ans.get('0202')).lower() == "a" and str(ans.get('0203')).lower() == "v" and str(ans.get('0204')).lower() == "a" and str(ans.get('0205')).lower() == "s" and str(ans.get('0206')).lower() == "c" and str(ans.get('0207')).lower() == "r" and str(ans.get('0208')).lower() == "i" and str(ans.get('0209')).lower() == "p" and str(ans.get('0210')).lower() == "t":
+            #     total_marks = total_marks+10
+
+            # if str(ans.get('0201')).lower() == "j" and str(ans.get('0202')).lower() == "a" and str(ans.get('0203')).lower() == "v" and str(ans.get('0204')).lower() == "a" and str(ans.get('0205')).lower() == "s" and str(ans.get('0206')).lower() == "c" and str(ans.get('0207')).lower() == "r" and str(ans.get('0208')).lower() == "i" and str(ans.get('0209')).lower() == "p" and str(ans.get('0210')).lower() == "t":
+            #     total_marks = total_marks+10
+
+            # if str(ans.get('0201')).lower() == "j" and str(ans.get('0202')).lower() == "a" and str(ans.get('0203')).lower() == "v" and str(ans.get('0204')).lower() == "a" and str(ans.get('0205')).lower() == "s" and str(ans.get('0206')).lower() == "c" and str(ans.get('0207')).lower() == "r" and str(ans.get('0208')).lower() == "i" and str(ans.get('0209')).lower() == "p" and str(ans.get('0210')).lower() == "t":
+            #     total_marks = total_marks+10
 
         except Exception as e:
             total_marks = users_db["score"]
