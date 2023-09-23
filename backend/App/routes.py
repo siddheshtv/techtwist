@@ -37,7 +37,7 @@ def allowed_file(filename):
            filename.rsplit('.', 1)[1].lower()() in ALLOWED_EXTENSIONS
     
 
-@app.route("/getScore", methods=["GET"])
+@app.route("/getScore", methods=["POST"])
 def getScore():
     try:
         users_db = db["users_db"]
@@ -46,6 +46,7 @@ def getScore():
 
         print(ans)
         usr_obj = users_db.find_one({"uid": uid})
+
 
         if not usr_obj:
             return jsonify({"success":False, "reason":"user with uid not found"})
