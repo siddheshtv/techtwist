@@ -166,7 +166,7 @@ def register():
         # Insert the new member into the database
         users_db.insert_one(new_member)
 
-        return jsonify({'success': True, 'msg': 'Member registered successfully', 'uid': uid}), 201
+        return jsonify({'success': True, 'msg': 'Member registered successfully', 'uid': uid, "uname" : uname}), 201
 
     except Exception as e:
         return jsonify({'success': False, 'msg': 'Something went wrong.', 'reason': str(e)}), 500
