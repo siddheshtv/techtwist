@@ -13,10 +13,22 @@ const Leaderboard = () => {
         );
 
         if (response.status === 200) {
-          // Sort the data by marks in descending order
-          const sortedData = response.data.data.sort(
-            (a, b) => b.score - a.score
+          // Filter out data without total_time
+          const filteredData = response.data.data.filter(
+            (user) => user.total_time
           );
+
+          // Sort the filtered data by marks in descending order, and then by total_time in ascending order
+          const sortedData = filteredData.sort((a, b) => {
+            if (b.score !== a.score) {
+              return b.score - a.score; // Sort by score in descending order
+            } else {
+              // If score is the same, sort by total_time in ascending order
+              const timeA = parseTotalTime(a.total_time);
+              const timeB = parseTotalTime(b.total_time);
+              return timeA - timeB;
+            }
+          });
           setLeaderboardData(sortedData);
         } else {
           console.error("Failed to fetch leaderboard data");
@@ -24,6 +36,12 @@ const Leaderboard = () => {
       } catch (error) {
         console.error("Error fetching leaderboard data:", error);
       }
+    };
+
+    // Function to parse total_time string into seconds
+    const parseTotalTime = (totalTime) => {
+      const [hours, minutes, seconds] = totalTime.split(":").map(Number);
+      return hours * 3600 + minutes * 60 + seconds;
     };
 
     fetchLeaderboardData();
@@ -39,7 +57,7 @@ const Leaderboard = () => {
         {leaderboardData.map((user, index) => (
           <h1
             key={user.uid}
-            className={`block text-left text-2xl w-full px-4 py-5 ${
+            className={`flex justify-between items-center text-2xl w-full px-4 py-5 ${
               index === 0
                 ? "bg-gradient-to-b from-orange-500 to-yellow-300 rounded-t-2xl"
                 : index === 1
@@ -51,7 +69,14 @@ const Leaderboard = () => {
                 : "border-b-0 shadow-2xl focus:ring-0"
             }`}
           >
-            {user.uname} &rarr; {user.score}
+            <div>
+              {user.uname} &rarr; {user.score}
+            </div>
+            {user.total_time && (
+              <div className="text-right mr-5 font-semibold">
+                {user.total_time}
+              </div>
+            )}
           </h1>
         ))}
       </div>
