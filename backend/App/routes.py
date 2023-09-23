@@ -119,8 +119,18 @@ def getScore():
         except Exception as e:
             total_marks = users_db["score"]
             print("Error : ",str(e))
+
+        end_time = time.time()
         
-        users_db.update_one({"uid":uid},{"$set":{"score":total_marks}})
+        # users_db.update_one({"uid":uid},{"$set":{"score":total_marks}})
+        # users_db.update_one({"uid":uid},{"$set":{"end_time":end_time}})
+
+        start_time = usr_obj["start_time"]
+
+        total_time = start_time - end_time
+
+        users_db.update_one({"uid":uid},{"$set":{"end_time":end_time,"total_time":total_time, "score":total_marks}})
+
         return json.dumps({"success":True, "marks":total_marks, "uid":uid})
         
 
@@ -136,6 +146,7 @@ def register():
         uname = request.form.get('uname')
         email = request.form.get('email')
         pwd = request.form.get('pwd')
+        start_time = time.time()
 
         # Check if email is already in use
         users_db = db["users_db"]
