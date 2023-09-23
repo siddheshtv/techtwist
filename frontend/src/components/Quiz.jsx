@@ -46,26 +46,86 @@ const Quiz = () => {
               placeholder="01"
               id="0101"
             />
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
+            <div className="bl" id="0102"></div>
+            <div className="bl" id="0103"></div>
+            <div className="bl" id="0104"></div>
+            <div className="bl" id="0105"></div>
+            <div className="bl" id="0106"></div>
+            <div className="bl" id="0107"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0108"
+            />
+            <div className="bl" id="0109"></div>
+            <div className="bl" id="0110"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0111"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0112"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0113"
+            />
 
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
+            <div className="bl" id="0114"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0115"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0116"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0117"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0118"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0119"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0120"
+            />
           </div>
           <div className="flex">
             <div className="mat">2</div>
@@ -76,25 +136,85 @@ const Quiz = () => {
               placeholder="X"
               id="0201"
             />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0202"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0203"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0204"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0205"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0206"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0207"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0208"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0209"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0210"
+            />
+            <div className="bl" id="0211"></div>
+            <div className="bl" id="0212"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0213"
+            />
+            <div className="bl" id="0214"></div>
+            <div className="bl" id="0215"></div>
+            <div className="bl" id="0216"></div>
+            <div className="bl" id="0217"></div>
+            <div className="bl" id="0218"></div>
+            <div className="bl" id="0219"></div>
+            <div className="bl" id="0220"></div>
           </div>
           <div className="flex">
             <div className="mat">3</div>
@@ -105,25 +225,91 @@ const Quiz = () => {
               placeholder="X"
               id="0301"
             />
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
+            <div className="bl" id="0302"></div>
+            <div className="bl" id="0303"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0304"
+            />
+            <div className="bl" id="0305"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0306"
+            />
+            <div className="bl" id="0307"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0308"
+            />
+            <div className="bl" id="0309"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0310"
+            />
+            <div className="bl" id="0311"></div>
+            <div className="bl" id="0312"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0313"
+            />
+            <div className="bl" id="0314"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0315"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0316"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0317"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0318"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0319"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0320"
+            />
           </div>
           <div className="flex">
             <div className="mat">4</div>
@@ -134,25 +320,49 @@ const Quiz = () => {
               placeholder="X"
               id="0401"
             />
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
+            <div className="bl" id="0402"></div>
+            <div className="bl" id="0403"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0404"
+            />
+            <div className="bl" id="0405"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0406"
+            />
+            <div className="bl" id="0407"></div>
+            <div className="bl" id="0408"></div>
+            <div className="bl" id="0409"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0410"
+            />
+            <div className="bl" id="0411"></div>
+            <div className="bl" id="0412"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0413"
+            />
+            <div className="bl" id="0414"></div>
+            <div className="bl" id="0415"></div>
+            <div className="bl" id="0416"></div>
+            <div className="bl" id="0417"></div>
+            <div className="bl" id="0418"></div>
+            <div className="bl" id="0419"></div>
+            <div className="bl" id="0420"></div>
           </div>
           <div className="flex">
             <div className="mat">5</div>
@@ -163,25 +373,73 @@ const Quiz = () => {
               placeholder="X"
               id="0501"
             />
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
+            <div className="bl" id="0502"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0503"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0504"
+            />
+            <div className="bl" id="0505"></div>
+            <div className="bl" id="0506"></div>
+            <div className="bl" id="0507"></div>
+            <div className="bl" id="0508"></div>
+            <div className="bl" id="0509"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0510"
+            />
+            <div className="bl" id="0511"></div>
+            <div className="bl" id="0512"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0513"
+            />
+            <div className="bl" id="0514"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0515"
+            />
+            <div className="bl" id="0516"></div>
+            <div className="bl" id="0517"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0518"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0519"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0520"
+            />
           </div>
           <div className="flex">
             <div className="mat">6</div>
@@ -192,347 +450,2021 @@ const Quiz = () => {
               placeholder="X"
               id="0601"
             />
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
-            <div className="bl"></div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
+            <div className="bl" id="0101"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
+            <div className="bl" id="0101"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
           </div>
           <div className="flex">
             <div className="mat">7</div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
           </div>
           <div className="flex">
             <div className="mat">1</div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
           </div>
           <div className="flex">
             <div className="mat">1</div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
           </div>
           <div className="flex">
             <div className="mat">1</div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
           </div>
           <div className="flex">
             <div className="mat">1</div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
           </div>
           <div className="flex">
             <div className="mat">1</div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
           </div>
           <div className="flex">
             <div className="mat">1</div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
           </div>
           <div className="flex">
             <div className="mat">1</div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
           </div>
           <div className="flex">
             <div className="mat">1</div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
           </div>
           <div className="flex">
             <div className="mat">1</div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
           </div>
           <div className="flex">
             <div className="mat">1</div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
           </div>
           <div className="flex">
             <div className="mat">1</div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
           </div>
           <div className="flex">
             <div className="mat">1</div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
           </div>
           <div className="flex">
             <div className="mat">1</div>
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <input type="text" maxLength="1" className="qin" placeholder="X" />
-            <div className="bl"></div>
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <input
+              type="text"
+              maxLength="1"
+              className="qin"
+              placeholder="X"
+              id="0101"
+            />
+            <div className="bl" id="0101"></div>
           </div>
         </div>
         <div className="flex flex-col bg-slate-800 rounded-lg shadow-lg p-6">
