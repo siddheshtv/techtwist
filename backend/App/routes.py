@@ -37,14 +37,16 @@ def allowed_file(filename):
            filename.rsplit('.', 1)[1].lower()() in ALLOWED_EXTENSIONS
     
 
-@app.route("/getScore", methods=["GET"])
+@app.route("/getScore", methods=["POST"])
 def getScore():
     try:
         users_db = db["users_db"]
         ans = request.form
-        uid = str(ans.get('uid')
-)
+        uid = str(ans.get('uid'))
+
+        # print(ans)
         usr_obj = users_db.find_one({"uid": uid})
+
 
         if not usr_obj:
             return jsonify({"success":False, "reason":"user with uid not found"})
@@ -116,6 +118,13 @@ def getScore():
             if str(ans.get('1403')).lower() == "t" and str(ans.get('1503')).lower() == "u" and str(ans.get('1603')).lower() == "p" and str(ans.get('1703')).lower() == "l" and str(ans.get('1803')).lower() == "e":
                 total_marks = total_marks+10
 
+
+            #--------------------------------------------------------------------------------------
+
+
+            if str(ans.get('1403')).lower() == "j" and str(ans.get('1503')).lower() == "a" and str(ans.get('1603')).lower() == "v" and str(ans.get('1703')).lower() == "a" and str(ans.get('1803')).lower() == "s" and str(ans.get('1803')).lower() == "c" and str(ans.get('1803')).lower() == "i" and str(ans.get('1803')).lower() == "p" and str(ans.get('1803')).lower() == "t":
+                total_marks = total_marks+10
+
         except Exception as e:
             total_marks = users_db["score"]
             print("Error : ",str(e))
@@ -127,11 +136,12 @@ def getScore():
 
         start_time = usr_obj["start_time"]
 
-        total_time = start_time - end_time
+        total_time = end_time - start_time
+        total_time = time.strftime("%H:%M:%S", time.gmtime(total_time))
 
         users_db.update_one({"uid":uid},{"$set":{"end_time":end_time,"total_time":total_time, "score":total_marks}})
 
-        return json.dumps({"success":True, "marks":total_marks, "uid":uid})
+        return json.dumps({"success":True, "marks":total_marks, "uid":uid, "total_time":total_time})
         
 
     except Exception as e:
@@ -171,7 +181,8 @@ def register():
             "uname": uname,
             "email": email,
             "pwd": hashed_pwd,
-            "score":0
+            "score":0,
+            "start_time":start_time
         }
 
         # Insert the new member into the database
@@ -208,6 +219,57 @@ def login():
             return jsonify({'success': True, 'msg': 'Login successful', 'uid': member["uid"], 'jwt': jwt_token, "uname":uname}), 200
         else:
             return jsonify({'success': False, 'msg': 'Invalid password'}), 401
+
+    except Exception as e:
+        return jsonify({'success': False, 'msg': 'Something went wrong.', 'reason': str(e)}), 500
+    
+@app.route("/getAllUsers", methods=["GET"])
+def getAllUsers():
+    try:
+
+        # Fetch member data from the database
+        users_db = db["users_db"]
+        member = users_db.find({}, {"_id": 0})
+        data = []
+
+        for dt in member:
+            data.append(dt)
+
+        return jsonify({'success': True, 'msg': 'Successful', "data":data}), 200
+
+    except Exception as e:
+        return jsonify({'success': False, 'msg': 'Something went wrong.', 'reason': str(e)}), 500
+    
+@app.route("/getScoreBoard", methods=["GET"])
+def getScoreBoard():
+    try:
+
+        # Fetch member data from the database
+        users_db = db["users_db"]
+        member = users_db.find({}, {"_id": 0})
+        data = []
+
+        for dt in member:
+            data.append(dt)
+
+        return jsonify({'success': True, 'msg': 'Successful', "data":data}), 200
+
+    except Exception as e:
+        return jsonify({'success': False, 'msg': 'Something went wrong.', 'reason': str(e)}), 500
+    
+@app.route("/deleteUser", methods=["GET"])
+def deleteUser():
+    try:
+        uid = request.args.get("uid")
+        # Fetch member data from the database
+        users_db = db["users_db"]
+        member = users_db.find_one_and_delete({"uid":uid})
+        data = []
+
+        for dt in member:
+            data.append(dt)
+
+        return jsonify({'success': True, 'msg': 'Deleted Successful'}), 200
 
     except Exception as e:
         return jsonify({'success': False, 'msg': 'Something went wrong.', 'reason': str(e)}), 500
