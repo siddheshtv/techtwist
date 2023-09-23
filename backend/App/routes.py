@@ -35,43 +35,6 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower()() in ALLOWED_EXTENSIONS
-
-
-@app.route("/addcategoryList", methods=["POST"])
-def addcategoryList():
-    try:
-        user_db = db["categoryList"]
-        category_id = int(round(time.time() * 1000))
-        category_id = str(category_id)
-
-        if request.method == 'POST':
-            if 'pic_url' not in request.files:
-                    return 'No file part'
-            pic_url = request.files['pic_url']
-            if pic_url.filename == '':
-                return 'No selected file'
-            if pic_url and allowed_file(pic_url.filename):
-                ofn = pic_url.filename
-                a = ofn.split('.')
-                ext = a[-1]
-                fn = str(category_id)+"."+ext
-                filename = secure_filename(fn)
-                UPLOAD_FOLDER_NAME = UPLOAD_FOLDER+"/categoryList"
-                pic_url.save(os.path.join(UPLOAD_FOLDER_NAME, filename))
-
-        if user_db.find_one({"category_name": request.form['category_name']}):
-            return f"Categoty already exists for {request.form['category_name']}"
-        
-        data = {
-            "category_name": request.form['category_name'],
-            "pic_url": "http://139.59.236.50/Renoadmin/categoryList/"+filename,
-            "category_id":str(category_id)
-        }
-
-        user_db.insert_one(data)
-        return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
-    except Exception as e:
-         return json.dumps({'success':False, "msg":"Something Went Wrong.", "reason":str(e)}), 402, {'ContentType':'application/json'}
     
 
 @app.route("/getScore", methods=["GET"])
@@ -99,44 +62,44 @@ def getScore():
             if str(ans.get('0113')).lower() == "p" and str(ans.get('0213')).lower() == "y" and str(ans.get('0313')).lower() == "t" and str(ans.get('0413')).lower() == "h" and str(ans.get('0513')).lower() == "o" and str(ans.get('0613')).lower() == "n":
                 total_marks = total_marks+10
             
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('0210')).lower() == "t" and str(ans.get('0310')).lower() == "e" and str(ans.get('0410')).lower() == "n" and str(ans.get('0510')).lower() == "s" and str(ans.get('0610')).lower() == "o" and str(ans.get('0710')).lower() == "r" and str(ans.get('0810')).lower() == "f" and str(ans.get('0910')).lower() == "l" and str(ans.get('1010')).lower() == "o" and str(ans.get('1110')).lower() == "w":
+                total_marks = total_marks+10
             
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('0204')).lower() == "a" and str(ans.get('0304')).lower() == "n" and str(ans.get('0404')).lower() == "n" and str(ans.get('0504')).lower() == "o" and str(ans.get('0604')).lower() == "t" and str(ans.get('0704')).lower() == "a" and str(ans.get('0804')).lower() == "t" and str(ans.get('0904')).lower() == "i" and str(ans.get('1004')).lower() == "o" and str(ans.get('1104')).lower() == "a":
+                total_marks = total_marks+10
             
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('0206')).lower() == "c" and str(ans.get('0306')).lower() == "s" and str(ans.get('0406')).lower() == "s":
+                total_marks = total_marks+10
+
+            if str(ans.get('0503')).lower() == "g" and str(ans.get('0603')).lower() == "i" and str(ans.get('0703')).lower() == "t":
+                total_marks = total_marks+10
             
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('0605')).lower() == "e" and str(ans.get('0705')).lower() == "x" and str(ans.get('0805')).lower() == "p" and str(ans.get('0905')).lower() == "r" and str(ans.get('1005')).lower() == "e" and str(ans.get('1105')).lower() == "s" and str(ans.get('1205')).lower() == "s":
+                total_marks = total_marks+10
             
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('0902')).lower() == "l" and str(ans.get('1002')).lower() == "a" and str(ans.get('1102')).lower() == "m" and str(ans.get('1202')).lower() == "b" and str(ans.get('1302')).lower() == "d" and str(ans.get('1402')).lower() == "a":
+                total_marks = total_marks+10
             
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('1111')).lower() == "s" and str(ans.get('1211')).lower() == "e" and str(ans.get('1311')).lower() == "o":
+                total_marks = total_marks+10
             
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('1601')).lower() == "f" and str(ans.get('1701')).lower() == "l" and str(ans.get('1801')).lower() == "a" and str(ans.get('1901')).lower() == "s" and str(ans.get('2001')).lower() == "k":
+                total_marks = total_marks+10
             
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('1607')).lower() == "r" and str(ans.get('1707')).lower() == "e" and str(ans.get('1807')).lower() == "a" and str(ans.get('1907')).lower() == "c" and str(ans.get('2007')).lower() == "t":
+                total_marks = total_marks+10
             
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('1313')).lower() == "s" and str(ans.get('1413')).lower() == "o" and str(ans.get('1513')).lower() == "l" and str(ans.get('1613')).lower() == "i" and str(ans.get('1713')).lower() == "d" and str(ans.get('1813')).lower() == "i" and str(ans.get('1913')).lower() == "t" and str(ans.get('2013')).lower() == "y":
+                total_marks = total_marks+10
             
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('0515')).lower() == "d" and str(ans.get('0615')).lower() == "i" and str(ans.get('0715')).lower() == "c" and str(ans.get('0815')).lower() == "t" and str(ans.get('0915')).lower() == "i" and str(ans.get('1015')).lower() == "o" and str(ans.get('115')).lower() == "n" and str(ans.get('1215')).lower() == "a" and str(ans.get('1315')).lower() == "r" and str(ans.get('1415')).lower() == "y":
+                total_marks = total_marks+10
             
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
-            
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
-            
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('0520')).lower() == "m" and str(ans.get('0620')).lower() == "e" and str(ans.get('0720')).lower() == "t" and str(ans.get('0820')).lower() == "a":
+                total_marks = total_marks+10
+
+            if str(ans.get('0617')).lower() == "m" and str(ans.get('0717')).lower() == "e" and str(ans.get('0817')).lower() == "r" and str(ans.get('0917')).lower() == "n":
+                total_marks = total_marks+10
             
             # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
             #     total_marks = total_marks+10
@@ -147,11 +110,11 @@ def getScore():
             # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
             #     total_marks = total_marks+10
 
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('0607')).lower() == "a" and str(ans.get('0707')).lower() == "s" and str(ans.get('0807')).lower() == "c" and str(ans.get('0907')).lower() == "i" and str(ans.get('1007')).lower() == "i":
+                total_marks = total_marks+10
 
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('1403')).lower() == "t" and str(ans.get('1503')).lower() == "u" and str(ans.get('1603')).lower() == "p" and str(ans.get('1703')).lower() == "l" and str(ans.get('1803')).lower() == "e":
+                total_marks = total_marks+10
 
         except Exception as e:
             total_marks = users_db["score"]
@@ -163,47 +126,6 @@ def getScore():
 
     except Exception as e:
         return json.dumps({'success':False, "msg":"Something Went Wrong.", "reason":str(e)}), 402, {'ContentType':'application/json'}
-    
-
-@app.route("/editCategoryList", methods=["PUT"])
-def editCategoryList():
-    categoryList = db["categoryList"]
-
-    category_id = request.form['category_id']
-
-    if categoryList.find_one({"category_id": category_id}) is None:
-        return f"Category with category_id {category_id} does not exists in the database"
-    
-    category_info_obj = categoryList.find_one({"category_id": category_id})
-
-    if request.method == 'POST' or request.method == 'PUT':
-        if 'pic_url' not in request.files:
-            pic_url_str = category_info_obj["pic_url"]
-        else:
-            pic_url = request.files['pic_url']
-            if pic_url.filename == '':
-                return 'No selected file'
-            if pic_url and allowed_file(pic_url.filename):
-                ofn = pic_url.filename
-                a = ofn.split('.')
-                ext = a[-1]
-                fn = str(category_id)+"."+ext
-                filename = secure_filename(fn)
-                UPLOAD_FOLDER_NAME = UPLOAD_FOLDER+"/categoryList"
-                pic_url.save(os.path.join(UPLOAD_FOLDER_NAME, filename))
-                pic_url_str = "http://139.59.236.50/Renoadmin/categoryList/"+filename
-
-        if 'category_name' not in request.form:
-            category_name = category_info_obj["category_name"]
-        else:
-            category_name = request.form['category_name']
-    data = {
-        "pic_url" : pic_url_str,
-        "category_name" : category_name
-    }
-    new_values = {"$set": data}
-    categoryList.update_one({"category_id": category_id}, new_values)
-    return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
 
 
 # Register Member
@@ -272,7 +194,7 @@ def login():
                 'uid': member["uid"],
                 'exp': datetime.utcnow()  # Token expiration time
             }, app.config['SECRET_KEY'], algorithm='HS256')
-            return jsonify({'success': True, 'msg': 'Login successful', 'uid': member["uid"], 'jwt': jwt_token}), 200
+            return jsonify({'success': True, 'msg': 'Login successful', 'uid': member["uid"], 'jwt': jwt_token, "uname":uname}), 200
         else:
             return jsonify({'success': False, 'msg': 'Invalid password'}), 401
 
