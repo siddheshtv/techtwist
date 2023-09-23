@@ -44,7 +44,7 @@ def getScore():
         ans = request.form
         uid = str(ans.get('uid'))
 
-        print(ans)
+        # print(ans)
         usr_obj = users_db.find_one({"uid": uid})
 
 
@@ -136,7 +136,7 @@ def getScore():
 
         start_time = usr_obj["start_time"]
 
-        total_time = start_time - end_time
+        total_time = end_time - start_time
         total_time = time.strftime("%H:%M:%S", time.gmtime(total_time))
 
         users_db.update_one({"uid":uid},{"$set":{"end_time":end_time,"total_time":total_time, "score":total_marks}})
