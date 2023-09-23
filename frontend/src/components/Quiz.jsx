@@ -1,10 +1,14 @@
 import React from "react";
 import "../App.css";
+import { useParams } from "react-router-dom";
 
 const Quiz = () => {
   const matList = [
     0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
   ];
+
+  const { uname } = useParams();
+  console.log("this.context:", uname);
 
   return (
     <section className="bg-gray-50 dark:bg-gray-900  px-5">
@@ -15,8 +19,7 @@ const Quiz = () => {
           </h1>
           <div className="flex space-x-5">
             <h1 className="py-2 text-xl">
-              Username:{" "}
-              <span className="font-bold text-2xl">theboringbuilder</span>
+              Username: <span className="font-bold text-2xl">{uname}</span>
             </h1>
             <h1 className="py-2 text-xl">
               Score: <span className="font-bold text-2xl">🔥</span>
