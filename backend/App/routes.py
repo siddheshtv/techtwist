@@ -101,14 +101,14 @@ def getScore():
             if str(ans.get('0617')).lower() == "m" and str(ans.get('0717')).lower() == "e" and str(ans.get('0817')).lower() == "r" and str(ans.get('0917')).lower() == "n":
                 total_marks = total_marks+10
             
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('1117')).lower() == "k" and str(ans.get('1217')).lower() == "o" and str(ans.get('1317')).lower() == "t" and str(ans.get('1417')).lower() == "l" and str(ans.get('1517')).lower() == "i" and str(ans.get('1617')).lower() == "n":
+                total_marks = total_marks+10
             
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('1615')).lower() == "m" and str(ans.get('1715')).lower() == "o" and str(ans.get('1815')).lower() == "n" and str(ans.get('1915')).lower() == "g" and str(ans.get('2015')).lower() == "o":
+                total_marks = total_marks+10
             
-            # if str(ans.get('0101')).lower() == "d" and str(ans.get('0201')).lower() == "j" and str(ans.get('0301')).lower() == "a" and str(ans.get('0401')).lower() == "n" and str(ans.get('0501')).lower() == "g" and str(ans.get('0601')).lower() == "o":
-            #     total_marks = total_marks+10
+            if str(ans.get('1319')).lower() == "h" and str(ans.get('1419')).lower() == "t" and str(ans.get('1519')).lower() == "m" and str(ans.get('1619')).lower() == "l":
+                total_marks = total_marks+10
 
             if str(ans.get('0607')).lower() == "a" and str(ans.get('0707')).lower() == "s" and str(ans.get('0807')).lower() == "c" and str(ans.get('0907')).lower() == "i" and str(ans.get('1007')).lower() == "i":
                 total_marks = total_marks+10
