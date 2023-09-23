@@ -17,3 +17,19 @@
 .mat {
   @apply w-8 h-8 border-4 bg-gray-700 border-gray-500 text-gray-300 uppercase text-center text-base;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #777;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

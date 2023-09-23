@@ -6,7 +6,7 @@ const Login = () => {
       <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
         <a
           href="/"
-          class="flex items-center mb-6 text-5xl font-semibold text-gray-900 dark:text-white"
+          class="mb-6 font-bold flex justify-center items-center text-7xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100"
         >
           TechTwist
         </a>
