@@ -8,10 +8,13 @@ const Quiz = () => {
     0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
   ];
 
-  const { uname } = useParams();
+  const { uname, uid } = useParams();
   console.log("this.context:", uname);
-  const uid = "5c89f273b52e45a1ababe1d3e067162a";
+  const userId = uid;
   const [score, setScore] = useState(null);
+
+  localStorage.setItem("uname", uname);
+  localStorage.setItem("uid", uid);
 
   const handleSubmit = async (event) => {
     event.preventDefault(); // Prevent the default form submission behavior
@@ -24,30 +27,41 @@ const Quiz = () => {
       // Create a FormData object
       const formData = new FormData();
 
-      // Iterate over the IDs and append values to the FormData
+      // Split the coordinates text into an array of IDs
       const ids = coordinatesText.split("\n");
-      ids.forEach((id) => {
+
+      console.log(coordinatesText);
+      console.log(ids);
+
+      // Iterate over the IDs and append values to the FormData
+      ids.forEach(async (id) => {
         const idValue = document.getElementById(id.trim())?.value || "";
         formData.append(id.trim(), idValue);
       });
 
       // Append additional parameters
       formData.append("uname", uname);
-      formData.append("uid", uid);
+      formData.append("uid", userId);
+      formData.forEach((value, key) => {
+        console.log(`${key}: ${value}`);
+      });
 
       // Send a GET request with FormData
-      const response = await axios.get("http://44.206.134.88:5002/getScore", {
-        params: formData, // Send FormData as params
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-      });
+      const response = await axios.post(
+        "http://44.206.134.88:5002/getScore",
+        formData,
+        {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        }
+      );
 
       if (response.status === 200) {
         // Handle the score value received from the server
-        const { score } = response.data;
-        setScore(score);
-        console.log(JSON.stringify(score));
+        const { marks } = response.data;
+        setScore(marks);
+        console.log("Marks: ", marks);
       } else {
         console.error("Failed to retrieve score");
       }
@@ -64,6 +78,14 @@ const Quiz = () => {
             TechTwist
           </h1>
           <div className="flex space-x-5">
+            <a
+              href="/leaderboard"
+              target="_blank"
+              rel="noreferrer"
+              className="text-white focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 bg-gradient-to-b from-orange-500 to-yellow-300 hover:opacity-80 transition duration-300"
+            >
+              Leaderboard
+            </a>
             <h1 className="py-2 text-xl">
               Username: <span className="font-bold text-2xl">{uname}</span>
             </h1>

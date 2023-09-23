@@ -38,7 +38,7 @@ const Login = () => {
 
       if (response.status === 200) {
         console.log("Login successful");
-        navigate(`/quiz/${response.data.uname}`);
+        navigate(`/quiz/${response.data.uname}/${response.data.uid}`);
       } else {
         console.error("Login failed");
       }
