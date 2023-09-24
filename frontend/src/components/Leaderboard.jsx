@@ -5,7 +5,6 @@ const Leaderboard = () => {
   const [leaderboardData, setLeaderboardData] = useState([]);
 
   useEffect(() => {
-    // Fetch leaderboard data when the component mounts
     const fetchLeaderboardData = async () => {
       try {
         const response = await axios.get(
@@ -13,17 +12,14 @@ const Leaderboard = () => {
         );
 
         if (response.status === 200) {
-          // Filter out data without total_time
           const filteredData = response.data.data.filter(
             (user) => user.total_time
           );
 
-          // Sort the filtered data by marks in descending order, and then by total_time in ascending order
           const sortedData = filteredData.sort((a, b) => {
             if (b.score !== a.score) {
-              return b.score - a.score; // Sort by score in descending order
+              return b.score - a.score;
             } else {
-              // If score is the same, sort by total_time in ascending order
               const timeA = parseTotalTime(a.total_time);
               const timeB = parseTotalTime(b.total_time);
               return timeA - timeB;
@@ -38,13 +34,19 @@ const Leaderboard = () => {
       }
     };
 
-    // Function to parse total_time string into seconds
     const parseTotalTime = (totalTime) => {
       const [hours, minutes, seconds] = totalTime.split(":").map(Number);
       return hours * 3600 + minutes * 60 + seconds;
     };
 
+    // Fetch leaderboard data initially
     fetchLeaderboardData();
+
+    // Set up an interval to fetch and update data every 1 minute (60,000 milliseconds)
+    const intervalId = setInterval(fetchLeaderboardData, 60000);
+
+    // Clean up the interval when the component unmounts
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
