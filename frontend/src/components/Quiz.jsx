@@ -1757,35 +1757,65 @@ const Quiz = () => {
                   Across
                 </h1>
                 <h1 className="text-base text-white py-1.5">
-                  <strong>01.</strong> A popular web framework for Python
+                  <strong>22.</strong> The programming language that brings
+                  interactivity to web pages
                 </h1>
                 <h1 className="text-base text-white py-1.5">
-                  <strong>02.</strong> The smallest unit of digital information
+                  <strong>23.</strong> A repetitive process in programming,
+                  often used to traverse data structures
                 </h1>
                 <h1 className="text-base text-white py-1.5">
-                  <strong>03.</strong> A versatile and high-level programming
-                  language known for its simplicity and readability
+                  <strong>24.</strong> A python package manager with three
+                  simple letters
                 </h1>
                 <h1 className="text-base text-white py-1.5">
-                  <strong>04.</strong> An open-source machine learning framework
-                  developed by Google
+                  <strong>25.</strong> Google's web browser known for its speed
+                  and simplicity
                 </h1>
                 <h1 className="text-base text-white py-1.5">
-                  <strong>05.</strong> Explanatory notes or comments added to a
-                  text
+                  <strong>26.</strong> Containerization platform used for
+                  packaging, distributing, and running applications
                 </h1>
                 <h1 className="text-base text-white py-1.5">
-                  <strong>06.</strong> A stylesheet language used for describing
-                  the presentation of web pages
+                  <strong>27.</strong> Node.js package manager, often used to
+                  install JavaScript libraries
                 </h1>
                 <h1 className="text-base text-white py-1.5">
-                  <strong>07.</strong> A distributed version control system used
-                  for tracking changes in code
+                  <strong>28.</strong> A popular Linux distribution known for
+                  its stability and community-driven development.
                 </h1>
                 <h1 className="text-base text-white py-1.5">
-                  <strong>08.</strong> A widely-used web application framework
-                  for Node.js, known for its simplicity and robust features,
-                  often used to build web applications and APIs
+                  <strong>29.</strong> A leading cloud computing platform by
+                  Amazon
+                </h1>
+                <h1 className="text-base text-white py-1.5">
+                  <strong>30.</strong> A python library for creating static,
+                  animated, and interactive visualizations in plots and charts
+                </h1>
+                <h1 className="text-base text-white py-1.5">
+                  <strong>31.</strong> Tiny digital symbols used to express
+                  emotions or ideas in text messages and social media
+                </h1>
+                <h1 className="text-base text-white py-1.5">
+                  <strong>32.</strong> A data structure in computing that
+                  operates on a last-in, first-out (LIFO) principle
+                </h1>
+                <h1 className="text-base text-white py-1.5">
+                  <strong>33.</strong> A popular data interchange format often
+                  used in web development
+                </h1>
+                <h1 className="text-base text-white py-1.5">
+                  <strong>34.</strong> Apple's programming language known for
+                  its speed and ease of use.
+                </h1>
+                <h1 className="text-base text-white py-1.5">
+                  <strong>35.</strong> A multinational computer technology
+                  corporation known for its database software
+                </h1>
+                <h1 className="text-base text-white py-1.5">
+                  <strong>36.</strong> A visual programming language designed
+                  for beginners to create interactive stories, games, and
+                  animations
                 </h1>
               </div>
             </div>
