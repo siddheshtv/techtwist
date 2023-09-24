@@ -1264,13 +1264,7 @@ const Quiz = () => {
                 placeholder="X"
                 id="1519"
               />
-              <input
-                type="text"
-                maxLength="1"
-                className="qin"
-                placeholder="X"
-                id="1520"
-              />
+              <div className="bl" id="1520"></div>
             </div>
             <div className="flex">
               <div className="mat">16</div>
