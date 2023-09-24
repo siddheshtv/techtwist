@@ -67,7 +67,7 @@ def getScore():
             if str(ans.get('0210')).lower() == "t" and str(ans.get('0310')).lower() == "e" and str(ans.get('0410')).lower() == "n" and str(ans.get('0510')).lower() == "s" and str(ans.get('0610')).lower() == "o" and str(ans.get('0710')).lower() == "r" and str(ans.get('0810')).lower() == "f" and str(ans.get('0910')).lower() == "l" and str(ans.get('1010')).lower() == "o" and str(ans.get('1110')).lower() == "w":
                 total_marks = total_marks+10
             
-            if str(ans.get('0204')).lower() == "a" and str(ans.get('0304')).lower() == "n" and str(ans.get('0404')).lower() == "n" and str(ans.get('0504')).lower() == "o" and str(ans.get('0604')).lower() == "t" and str(ans.get('0704')).lower() == "a" and str(ans.get('0804')).lower() == "t" and str(ans.get('0904')).lower() == "i" and str(ans.get('1004')).lower() == "o" and str(ans.get('1104')).lower() == "a":
+            if str(ans.get('0204')).lower() == "a" and str(ans.get('0304')).lower() == "n" and str(ans.get('0404')).lower() == "n" and str(ans.get('0504')).lower() == "o" and str(ans.get('0604')).lower() == "t" and str(ans.get('0704')).lower() == "a" and str(ans.get('0804')).lower() == "t" and str(ans.get('0904')).lower() == "i" and str(ans.get('1004')).lower() == "o" and str(ans.get('1104')).lower() == "n":
                 total_marks = total_marks+10
             
             if str(ans.get('0206')).lower() == "c" and str(ans.get('0306')).lower() == "s" and str(ans.get('0406')).lower() == "s":
