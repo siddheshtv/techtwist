@@ -164,7 +164,7 @@ def getScore():
             if str(ans.get('2015')).lower() == "o" and str(ans.get('2016')).lower() == "r" and str(ans.get('2017')).lower() == "a" and str(ans.get('2018')).lower() == "c" and str(ans.get('2019')).lower() == "l" and str(ans.get('2020')).lower() == "e":
                 total_marks = total_marks+10
 
-            if str(ans.get('1313')).lower() == "s" and str(ans.get('1314')).lower() == "c" and str(ans.get('1315')).lower() == "r" and str(ans.get('1315')).lower() == "a" and str(ans.get('1317')).lower() == "t" and str(ans.get('1318')).lower() == "c" and str(ans.get('1319')).lower() == "h":
+            if str(ans.get('1313')).lower() == "s" and str(ans.get('1314')).lower() == "c" and str(ans.get('1315')).lower() == "r" and str(ans.get('1316')).lower() == "a" and str(ans.get('1317')).lower() == "t" and str(ans.get('1318')).lower() == "c" and str(ans.get('1319')).lower() == "h":
                 total_marks = total_marks+30
 
         except Exception as e:
@@ -253,16 +253,12 @@ def login():
 
         # Check if password matches using bcrypt
         if bcrypt.check_password_hash(member["pwd"], pwd):
-            jwt_token = jwt.encode({
-                'uname': uname,
-                'uid': member["uid"],
-                'exp': datetime.utcnow()  # Token expiration time
-            }, app.config['SECRET_KEY'], algorithm='HS256')
-            return jsonify({'success': True, 'msg': 'Login successful', 'uid': member["uid"], 'jwt': jwt_token, "uname":uname}), 200
+            return jsonify({'success': True, 'msg': 'Login successful', 'uid': member["uid"], "uname":uname}), 200
         else:
             return jsonify({'success': False, 'msg': 'Invalid password'}), 401
 
     except Exception as e:
+        print(e)
         return jsonify({'success': False, 'msg': 'Something went wrong.', 'reason': str(e)}), 500
     
 @app.route("/getAllUsers", methods=["GET"])
