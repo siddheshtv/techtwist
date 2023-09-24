@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { ipaddress } from "../constants";
 
 const Leaderboard = () => {
   const [leaderboardData, setLeaderboardData] = useState([]);
@@ -8,7 +9,7 @@ const Leaderboard = () => {
     const fetchLeaderboardData = async () => {
       try {
         const response = await axios.get(
-          "http://44.206.134.88:5002/getAllUsers"
+          `http://${ipaddress}:5002/getAllUsers`
         );
 
         if (response.status === 200) {

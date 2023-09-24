@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../App.css";
 import { json, useParams } from "react-router-dom";
 import axios from "axios";
+import { ipaddress } from "../constants";
 
 const Quiz = () => {
   const matList = [
@@ -48,7 +49,7 @@ const Quiz = () => {
 
       // Send a GET request with FormData
       const response = await axios.post(
-        "http://44.206.134.88:5002/getScore",
+        `http://${ipaddress}:5002/getScore`,
         formData,
         {
           headers: {
