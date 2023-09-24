@@ -127,7 +127,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="02"
                 id="0108"
               />
               <div className="bl" id="0109"></div>
@@ -136,7 +136,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="24"
                 id="0111"
               />
               <input
@@ -150,7 +150,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="03"
                 id="0113"
               />
 
@@ -159,7 +159,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="25"
                 id="0115"
               />
               <input
@@ -204,7 +204,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="22"
                 id="0201"
               />
               <input
@@ -225,7 +225,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="05"
                 id="0204"
               />
               <input
@@ -239,7 +239,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="06"
                 id="0206"
               />
               <input
@@ -267,7 +267,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="04"
                 id="0210"
               />
               <div className="bl" id="0211"></div>
@@ -343,7 +343,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="26"
                 id="0315"
               />
               <input
@@ -449,7 +449,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="07"
                 id="0503"
               />
               <input
@@ -485,7 +485,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="14"
                 id="0515"
               />
               <div className="bl" id="0516"></div>
@@ -494,7 +494,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="27"
                 id="0518"
               />
               <input
@@ -508,7 +508,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="15"
                 id="0520"
               />
             </div>
@@ -527,7 +527,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="23"
                 id="0603"
               />
               <input
@@ -541,7 +541,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="08"
                 id="0605"
               />
               <input
@@ -555,7 +555,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="20"
                 id="0607"
               />
               <input
@@ -607,7 +607,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="16"
                 id="0617"
               />
               <div className="bl" id="0618"></div>
@@ -766,7 +766,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="02"
                 id="0902"
               />
               <div className="bl" id="0903"></div>
@@ -806,7 +806,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="28"
                 id="0912"
               />
               <input
@@ -941,7 +941,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="29"
                 id="1109"
               />
               <input
@@ -955,7 +955,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="10"
                 id="1111"
               />
               <div className="bl" id="1112"></div>
@@ -973,7 +973,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="17"
                 id="1117"
               />
               <div className="bl" id="1118"></div>
@@ -1065,7 +1065,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="D13/A15"
                 id="1313"
               />
               <input
@@ -1107,7 +1107,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="19"
                 id="1319"
               />
               <div className="bl" id="1320"></div>
@@ -1118,7 +1118,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="30"
                 id="1401"
               />
               <input
@@ -1132,7 +1132,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="21"
                 id="1403"
               />
               <input
@@ -1273,7 +1273,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="11"
                 id="1601"
               />
               <div className="bl" id="1602"></div>
@@ -1291,7 +1291,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="12"
                 id="1607"
               />
               <div className="bl" id="1608"></div>
@@ -1299,7 +1299,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="31"
                 id="1609"
               />
               <input
@@ -1335,7 +1335,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="18"
                 id="1615"
               />
               <div className="bl" id="1616"></div>
@@ -1431,7 +1431,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="32"
                 id="1805"
               />
               <input
@@ -1485,7 +1485,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="33"
                 id="1817"
               />
               <input
@@ -1571,7 +1571,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="34"
                 id="2003"
               />
               <input
@@ -1619,7 +1619,7 @@ const Quiz = () => {
                 type="text"
                 maxLength="1"
                 className="qin"
-                placeholder="X"
+                placeholder="35"
                 id="2015"
               />
               <input
