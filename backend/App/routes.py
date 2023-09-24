@@ -94,7 +94,7 @@ def getScore():
             if str(ans.get('1313')).lower() == "s" and str(ans.get('1413')).lower() == "o" and str(ans.get('1513')).lower() == "l" and str(ans.get('1613')).lower() == "i" and str(ans.get('1713')).lower() == "d" and str(ans.get('1813')).lower() == "i" and str(ans.get('1913')).lower() == "t" and str(ans.get('2013')).lower() == "y":
                 total_marks = total_marks+10
             
-            if str(ans.get('0515')).lower() == "d" and str(ans.get('0615')).lower() == "i" and str(ans.get('0715')).lower() == "c" and str(ans.get('0815')).lower() == "t" and str(ans.get('0915')).lower() == "i" and str(ans.get('1015')).lower() == "o" and str(ans.get('115')).lower() == "n" and str(ans.get('1215')).lower() == "a" and str(ans.get('1315')).lower() == "r" and str(ans.get('1415')).lower() == "y":
+            if str(ans.get('0515')).lower() == "d" and str(ans.get('0615')).lower() == "i" and str(ans.get('0715')).lower() == "c" and str(ans.get('0815')).lower() == "t" and str(ans.get('0915')).lower() == "i" and str(ans.get('1015')).lower() == "o" and str(ans.get('1115')).lower() == "n" and str(ans.get('1215')).lower() == "a" and str(ans.get('1315')).lower() == "r" and str(ans.get('1415')).lower() == "y":
                 total_marks = total_marks+10
             
             if str(ans.get('0520')).lower() == "m" and str(ans.get('0620')).lower() == "e" and str(ans.get('0720')).lower() == "t" and str(ans.get('0820')).lower() == "a":

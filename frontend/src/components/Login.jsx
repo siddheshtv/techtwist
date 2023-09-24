@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { ipaddress } from "../constants";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -25,7 +26,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        "http://44.206.134.88:5002/login",
+        `http://${ipaddress}:5002/login`,
         formDataObject,
         {
           headers: {
